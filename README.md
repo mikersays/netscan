@@ -18,7 +18,7 @@ This script scans the local network for connected devices, logs their IP and MAC
 ## Usage
 
 ```
-./network_scanner.sh [OPTIONS]
+./netscan.sh [OPTIONS]
 ```
 
 ## Options
@@ -37,11 +37,11 @@ This script scans the local network for connected devices, logs their IP and MAC
    sudo apt-get install arp-scan wireshark-common
    ```
 
-2. Clone this repository or download the `network_scanner.sh` script.
+2. Clone this repository or download the `netscan.sh` script.
 3. Make the script executable:
    
    ```
-   chmod +x network_scanner.sh
+   chmod +x netscan.sh
    ```
 
 4. Run the script with desired options.
@@ -50,12 +50,12 @@ This script scans the local network for connected devices, logs their IP and MAC
 
 1. Run the scanner once and display the results without logging:
    ```
-   ./network_scanner.sh -d
+   ./netscan.sh -d
    ```
 
 2. Run the scanner continuously with a custom interval of 120 seconds and log to a custom file:
    ```
-   ./network_scanner.sh -i 120 -l custom_log.txt
+   ./netscan.sh -i 120 -l custom_log.txt
    ```
 
 ## License
